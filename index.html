@@ -4,18 +4,39 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>1 Space A day</title>
+	<title>🚀 Space on the Daily 🪐</title>
 
-	<link rel="stylesheet" href="/index.css">
+	<link
+		href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+		rel="stylesheet">
+
+	<link rel="stylesheet" href="index.css">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
+
 
 </head>
 
 <body>
-	<main>
-		main container here
+	<main class="container">
+		<h1>🚀 Space on the Daily 🪐</h1>
+		<h2 id="title"></h2>
+		<p id="date"></p>
+
+		<section>
+			<img src="" id="picture" alt="NASA picture of the day">
+			<p id="explanation"></p>
+		</section>
+
+		<span>Built using the <a href="https://api.nasa.gov/">NASA APOD API</a>, based off <a
+				href="https://sophiali.dev/javascript-fetch-api-with-nasa-api">Sophia's Li article </a></span>
 	</main>
+
 	<script type="text/javascript" src="config.js"></script>
-	<script src="/index.js"></script>
+	<script src="index.js"></script>
 
 </body>
 

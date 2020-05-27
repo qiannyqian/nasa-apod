@@ -1,0 +1,29 @@
+* {
+	font-family: 'DM Mono', monospace;
+
+}
+
+body {
+	background: rgb(2, 0, 36);
+	background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 162, 255, 1) 100%);
+	color: white;
+	margin: 50px;
+}
+
+span {
+	font-size: 12px;
+}
+
+a {
+	color: inherit
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#picture {
+	width: 50%;
+}
